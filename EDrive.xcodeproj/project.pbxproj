@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1A5452829D4E2CE004D68AE /* EDriveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A5452729D4E2CE004D68AE /* EDriveApp.swift */; };
+		A11A1AAA29D4FA9C007366B6 /* PreviewPersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11A1AA929D4FA9C007366B6 /* PreviewPersistenceController.swift */; };
 		A1A5452A29D4E2CE004D68AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A5452929D4E2CE004D68AE /* ContentView.swift */; };
 		A1A5452C29D4E2CF004D68AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A5452B29D4E2CF004D68AE /* Assets.xcassets */; };
 		A1A5452F29D4E2CF004D68AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A5452E29D4E2CF004D68AE /* Preview Assets.xcassets */; };
 		A1A5453129D4E2CF004D68AE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A5453029D4E2CF004D68AE /* Persistence.swift */; };
-		A1A5453429D4E2CF004D68AE /* EDrive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1A5453229D4E2CF004D68AE /* EDrive.xcdatamodeld */; };
-		A1A5453E29D4E2CF004D68AE /* EDriveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A5453D29D4E2CF004D68AE /* EDriveTests.swift */; };
-		A1A5454829D4E2CF004D68AE /* EDriveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A5454729D4E2CF004D68AE /* EDriveUITests.swift */; };
-		A1A5454A29D4E2CF004D68AE /* EDriveUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A5454929D4E2CF004D68AE /* EDriveUITestsLaunchTests.swift */; };
+		A1A5455B29D4ECED004D68AE /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A5455A29D4ECED004D68AE /* LocationManager.swift */; };
+		A1A5455D29D4ED06004D68AE /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A5455C29D4ED06004D68AE /* Trip.swift */; };
+		A1A5455F29D4ED4D004D68AE /* LocationEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A5455E29D4ED4D004D68AE /* LocationEntity.swift */; };
+		A1A5456129D4ED7D004D68AE /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A5456029D4ED7D004D68AE /* PersistenceController.swift */; };
+		A1A5456329D4EE01004D68AE /* TripRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A5456229D4EE01004D68AE /* TripRecorder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,18 +37,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A11A1AA929D4FA9C007366B6 /* PreviewPersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewPersistenceController.swift; sourceTree = "<group>"; };
 		A1A5452429D4E2CE004D68AE /* EDrive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EDrive.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1A5452729D4E2CE004D68AE /* EDriveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDriveApp.swift; sourceTree = "<group>"; };
 		A1A5452929D4E2CE004D68AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A1A5452B29D4E2CF004D68AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1A5452E29D4E2CF004D68AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A1A5453029D4E2CF004D68AE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		A1A5453329D4E2CF004D68AE /* EDrive.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EDrive.xcdatamodel; sourceTree = "<group>"; };
 		A1A5453929D4E2CF004D68AE /* EDriveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EDriveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1A5453D29D4E2CF004D68AE /* EDriveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDriveTests.swift; sourceTree = "<group>"; };
 		A1A5454329D4E2CF004D68AE /* EDriveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EDriveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1A5454729D4E2CF004D68AE /* EDriveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDriveUITests.swift; sourceTree = "<group>"; };
-		A1A5454929D4E2CF004D68AE /* EDriveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDriveUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A1A5455A29D4ECED004D68AE /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		A1A5455C29D4ED06004D68AE /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		A1A5455E29D4ED4D004D68AE /* LocationEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationEntity.swift; sourceTree = "<group>"; };
+		A1A5456029D4ED7D004D68AE /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		A1A5456229D4EE01004D68AE /* TripRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripRecorder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				A1A5452629D4E2CE004D68AE /* EDrive */,
-				A1A5453C29D4E2CF004D68AE /* EDriveTests */,
-				A1A5454629D4E2CF004D68AE /* EDriveUITests */,
 				A1A5452529D4E2CE004D68AE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,12 +98,16 @@
 		A1A5452629D4E2CE004D68AE /* EDrive */ = {
 			isa = PBXGroup;
 			children = (
-				A1A5452729D4E2CE004D68AE /* EDriveApp.swift */,
+				A11A1AA929D4FA9C007366B6 /* PreviewPersistenceController.swift */,
+				A1A5456029D4ED7D004D68AE /* PersistenceController.swift */,
+				A1A5455A29D4ECED004D68AE /* LocationManager.swift */,
 				A1A5452929D4E2CE004D68AE /* ContentView.swift */,
 				A1A5452B29D4E2CF004D68AE /* Assets.xcassets */,
 				A1A5453029D4E2CF004D68AE /* Persistence.swift */,
-				A1A5453229D4E2CF004D68AE /* EDrive.xcdatamodeld */,
 				A1A5452D29D4E2CF004D68AE /* Preview Content */,
+				A1A5455C29D4ED06004D68AE /* Trip.swift */,
+				A1A5455E29D4ED4D004D68AE /* LocationEntity.swift */,
+				A1A5456229D4EE01004D68AE /* TripRecorder.swift */,
 			);
 			path = EDrive;
 			sourceTree = "<group>";
@@ -114,23 +118,6 @@
 				A1A5452E29D4E2CF004D68AE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		A1A5453C29D4E2CF004D68AE /* EDriveTests */ = {
-			isa = PBXGroup;
-			children = (
-				A1A5453D29D4E2CF004D68AE /* EDriveTests.swift */,
-			);
-			path = EDriveTests;
-			sourceTree = "<group>";
-		};
-		A1A5454629D4E2CF004D68AE /* EDriveUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A1A5454729D4E2CF004D68AE /* EDriveUITests.swift */,
-				A1A5454929D4E2CF004D68AE /* EDriveUITestsLaunchTests.swift */,
-			);
-			path = EDriveUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +250,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A11A1AAA29D4FA9C007366B6 /* PreviewPersistenceController.swift in Sources */,
 				A1A5453129D4E2CF004D68AE /* Persistence.swift in Sources */,
 				A1A5452A29D4E2CE004D68AE /* ContentView.swift in Sources */,
-				A1A5453429D4E2CF004D68AE /* EDrive.xcdatamodeld in Sources */,
-				A1A5452829D4E2CE004D68AE /* EDriveApp.swift in Sources */,
+				A1A5455B29D4ECED004D68AE /* LocationManager.swift in Sources */,
+				A1A5456329D4EE01004D68AE /* TripRecorder.swift in Sources */,
+				A1A5455F29D4ED4D004D68AE /* LocationEntity.swift in Sources */,
+				A1A5455D29D4ED06004D68AE /* Trip.swift in Sources */,
+				A1A5456129D4ED7D004D68AE /* PersistenceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +265,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1A5453E29D4E2CF004D68AE /* EDriveTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +272,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1A5454829D4E2CF004D68AE /* EDriveUITests.swift in Sources */,
-				A1A5454A29D4E2CF004D68AE /* EDriveUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,9 +412,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"EDrive/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "EDrive/PreviewPersistenceController.swift EDrive/Preview\\ Content";
 				DEVELOPMENT_TEAM = 6Z3LZX7N42;
 				ENABLE_PREVIEWS = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/PreviewPersistenceController";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -453,7 +442,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"EDrive/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "EDrive/PreviewPersistenceController.swift EDrive/Preview\\ Content";
 				DEVELOPMENT_TEAM = 6Z3LZX7N42;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -591,19 +580,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		A1A5453229D4E2CF004D68AE /* EDrive.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				A1A5453329D4E2CF004D68AE /* EDrive.xcdatamodel */,
-			);
-			currentVersion = A1A5453329D4E2CF004D68AE /* EDrive.xcdatamodel */;
-			path = EDrive.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = A1A5451C29D4E2CE004D68AE /* Project object */;
 }
